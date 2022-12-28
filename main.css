@@ -1,0 +1,21 @@
+#body {
+    display: flex;
+    padding: 2%;
+    margin: auto;
+    height: 50vh;
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+}
+.links { 
+    width: 50vh;
+	position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
+    transform: translateY(50%); 
+    list-style-type: none;
+} 
