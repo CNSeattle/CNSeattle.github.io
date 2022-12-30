@@ -6,16 +6,32 @@
     justify-content: center;
 }
 
-.text{
+#heading {
+    padding: 10%;
+}
+
+#logo {
+    width: 50vw;
+    padding: 2%;
+}
+
+.text {
     text-align: center;
 }
-.links { 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
     width: 50vh;
-	position: relative; 
-	display: inline-block; 
-	padding-left: 1em; 
-	left: 50%; 
-	transform: translateX(-50%); 
-    transform: translateY(50%); 
+    position: relative;
+    display: inline-block;
+    padding-left: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(50%);
     list-style-type: none;
-} 
+}
