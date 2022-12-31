@@ -60,6 +60,7 @@ h5 {
 }
 
 .container {
+    /* 2x2 grid system */
     margin: 20px auto;
     background-color: #fff;
     display: grid;
@@ -70,6 +71,7 @@ h5 {
 }
 
 .container .box {
+    /* each individual box inside the grid */
     padding: 20px;
     background-color: #eee;
     height: fit-content;
@@ -79,13 +81,16 @@ h5 {
 }
 
 div .container {
+    /* fix scaling on thin screens */
     --bs-gutter-x: 2vw;
 }
 
 .Sirv {
+    /* padding between 3D model embed and lower text */
     padding-bottom: 10px;
 }
 
 iframe {
+    /* padding between makeCode embed and lower text */
     padding-bottom: 10px;
 }
