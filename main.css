@@ -49,6 +49,10 @@
     margin-top: 10px;
 }
 
+h5 {
+    margin-bottom: 0;
+}
+
 .vertical-list a:hover {
     background-color: #ccc;
     /* Dark grey background on mouse-over */
@@ -64,16 +68,19 @@
     grid-row-gap: 1vh;
 }
 
-.container box {
+.container .box {
     padding: 20px;
-    color: #fff;
-    display: flex;
+    background-color: #eee;
+    height: fit-content;
+    display: block;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
-    font-family: sans-serif;
 }
 
 div .container {
     --bs-gutter-x: 2vw;
+}
+
+.Sirv {
+    padding-bottom: 10px;
 }
