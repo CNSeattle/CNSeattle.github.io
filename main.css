@@ -73,3 +73,7 @@
     font-size: 40px;
     font-family: sans-serif;
 }
+
+div .container {
+    --bs-gutter-x: 2vw;
+}
