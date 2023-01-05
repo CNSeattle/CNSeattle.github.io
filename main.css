@@ -16,6 +16,7 @@
 
 .text {
     text-align: center;
+    
 }
 
 .center {
@@ -93,4 +94,8 @@ div .container {
 iframe {
     /* padding between makeCode embed and lower text */
     padding-bottom: 10px;
+}
+
+.material-symbols-outlined {
+    font-size: 16px;
 }
