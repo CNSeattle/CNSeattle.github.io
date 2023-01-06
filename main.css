@@ -98,4 +98,31 @@ iframe {
 
 .material-symbols-outlined {
     font-size: 16px;
+    line-height: 30px
+    
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+a{
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    line-height: 20px
+    
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
 }
