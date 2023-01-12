@@ -16,7 +16,7 @@
 
 .text {
     text-align: center;
-    
+
 }
 
 .center {
@@ -99,16 +99,15 @@ iframe {
 .material-symbols-outlined {
     font-size: 16px;
     line-height: 30px
-    
 }
 
 .topleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
-a{
+a {
     background-color: #eee;
     /* Grey background color */
     color: black;
@@ -120,9 +119,10 @@ a{
     text-decoration: none;
     /* Remove underline from links */
     line-height: 20px
-    
 }
+
 span {
+    /* google material icons */
     display: table-cell;
     vertical-align: middle;
 }
