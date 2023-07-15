@@ -2,7 +2,6 @@ body {
     text-align: center;
     font-size: x-large;
     background-color: lawngreen;
-
 }
 
 h2 {
@@ -14,8 +13,6 @@ h2 {
 li {
     color: rgb(114, 114, 254);
     font-family: sans-serif;
-
-
 }
 
 h1 {
@@ -31,5 +28,5 @@ img {
 
 h3 {
     writing-mode: vertical-lr;
-   transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }

@@ -8,7 +8,7 @@ body {
     background: #ffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-   // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-family: "Comics Sans MS", "Comic Sans", cursive;
     font-size: 8px;
     line-height: 1.5;
@@ -17,7 +17,7 @@ body {
     padding: 2em 2em 4em;
 }
 
-h1{
+h1 {
     color: #222;
     font-size: 64px;
     font-weight: 600;
@@ -25,7 +25,11 @@ h1{
     text-align: center
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 16px;
 }
 
@@ -33,10 +37,12 @@ h2, h3, h4, h5, h6 {
 h2 {
     margin-top: 1.3em;
 }
-p{
+
+p {
     font-size: 16px;
 }
-li{
+
+li {
     font-size: 16px;
 }
 
@@ -44,7 +50,8 @@ a {
     color: #0083e8;
 }
 
-b, strong {
+b,
+strong {
     font-weight: 600;
     color: black;
     font-size: 20px;
@@ -53,11 +60,13 @@ b, strong {
 samp {
     display: none;
 }
-b1{
+
+b1 {
     font-size: 20px;
     color: orange;
 }
-b2{
+
+b2 {
     font-size: 20px;
     color: blue;
 }
@@ -77,6 +86,7 @@ img {
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
+
     100% {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
