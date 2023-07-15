@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-size: x-large;
+    background-color: lawngreen;
+
+}
+
+h2 {
+    color: rgb(186, 22, 55);
+    font-family: 'Comic Sans';
+    background-color: blue;
+}
+
+li {
+    color: rgb(114, 114, 254);
+    font-family: sans-serif;
+
+
+}
+
+h1 {
+    color: blue;
+    font-family: monospace;
+    background-color: red;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+h3 {
+    writing-mode: vertical-lr;
+   transform: rotate(-180deg);
+}
