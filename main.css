@@ -36,7 +36,9 @@
     /* Black text color */
     display: block;
     /* Make the links appear below each other */
-    padding: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
@@ -86,6 +88,7 @@ h5 {
     align-items: center;
     justify-content: center;
 }
+
 .container-single .box {
     /* each individual box inside the grid */
     padding: 20px;
@@ -129,7 +132,10 @@ a {
     /* Black text color */
     display: block;
     /* Make the links appear below each other */
-    padding: 12px;
+    
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
     /* Add some padding */
     text-decoration: none;
     /* Remove underline from links */
@@ -144,4 +150,8 @@ span {
 
 .preview-image {
     width: 100%;
+}
+
+img {
+    padding-bottom: 12px;
 }
