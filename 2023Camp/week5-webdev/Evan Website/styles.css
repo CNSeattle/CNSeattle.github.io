@@ -1,0 +1,79 @@
+  body {
+    background-color: #088F8F;
+    color: #9acd32;
+    font-weight: 900;
+  }
+
+  h1 {
+    font-size: 12vh;
+  }
+
+  p {
+    font-size: 4vh;
+  }
+
+  img {
+    width: 45vh;
+    height: 45vh;
+  }
+
+  #toes-tik-tac {
+    width: 250px;
+    height: 250px;
+    font-weight: 700;
+    font-size: 240px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #tik-tac-toe-link {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  #main-row img {
+    width: 33vh;
+    height: 33vh;
+  }
+
+  #tik-tac-toe-link img {
+    width: 15vh;
+    height: 15vh;
+  }
+  
+  .row {
+    display: flex;
+    margin-top: 0px;
+    height: 40%
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    width: 33%; /*Was 600px*/
+  }
+  
+  .text{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 3.5vh;
+  }
+  
+  #title-cell {
+    width: 100%;
+    font-size: 6vh;
+  }
+
+  #tic-tac-link-cell {
+    width: 100%;
+    text-align: center;
+  }
+
+  #tic-tac-link-cell p {
+    font-size: 20px;
+  }
+
+  #title-table {
+    margin: 0px;
+  }
