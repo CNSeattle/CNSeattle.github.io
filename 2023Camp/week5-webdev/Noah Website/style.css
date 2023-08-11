@@ -1,0 +1,231 @@
+body {
+  background-color:lightseagreen;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+p {
+  font-style: italic;
+}
+
+ p{
+  font-weight: bold;
+}
+li{font-style: serif;}
+ul{font-style: italic;}
+h1 {font-style: italic}
+img {padding-bottom:5px;}
+img {border-radius: 250px;}  
+
+.pizza {
+  padding: 50px;
+  border: 20px;
+  background-color:black ;
+  text-align: center;
+  color: white;
+}
+
+#italy {
+  display: flex;
+}
+@keyframes spin { 
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.green, .white, .red {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.green {
+  background-color: green;
+  width: 40%;
+  height: 100px;
+}
+.white {
+  background-color: white;
+  width: 40%;
+  height: 100px;
+}
+.red {
+  background-color: red;
+  width: 40%;
+  height: 100px;
+}
+#shark {
+  position: absolute;
+  width: 200px;
+  transform: translate(0,-50%);
+}
+
+#cheese
+{
+  position: absolute;
+  animation: moveSideToSide2 4s linear infinite;
+  display: flex;
+}
+
+@keyframes moveSideToSide{
+  0%, 100% {
+    left: 0;
+  } 50% {
+    left: calc(100% - 200px);
+  }
+}
+
+@keyframes spin { 
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.square{
+  color: brown;
+}
+#italy {
+  display: flex;
+}
+#cheese {
+  display: flex;
+}
+#cheese {
+height: 152px;
+}
+#cheese {
+  padding-top:18px;}
+.pizza {
+  padding-left: 
+  0px;
+  padding-right: 0px;
+}
+#shark2
+{
+  position: absolute;
+  animation: moveSideToSide 1s linear infinite;
+  display: flex;
+}
+
+@keyframes moveSideToSide{
+  0%, 100% { left: 0;} 
+  50% 
+    {left: calc(100% - 200px);}
+
+    0% { -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);}
+      50% { -webkit-transform: scaleX(1);
+        transform: scaleX(1);}
+    }
+@keyframes moveSideToSide2{
+        0%, 100% {
+          left: 0;
+        } 50% {
+          left: calc(100% - 200px);
+        }
+      }
+@keyframes moveSideToSide3{
+  0%, 100% {
+    left: 0;
+  } 50% {
+    -webkit-transform: rotateY(270deg);
+    transform:rotateY(270deg);
+    left: calc(100% - 100px);
+  }
+}
+  @keyframes moveSideToSide4{
+    0%, 100% {
+      left: 0;
+    } 50% {
+      left: calc(100% - 200px);
+    }
+  }
+
+@keyframes moveSideToSide5{
+  0%, 100% {
+    left: 0;
+  } 50% {
+    left: calc(100% - 200px);
+  }
+}
+
+@keyframes moveSideToSide6{
+  0%, 100% {
+    left: 0;
+  } 50% {
+    left: calc(100% - 200px);
+  }
+}
+
+#image {
+  height: 50px;
+  position: absolute;
+  animation: moveSideToSide3 4s linear infinite;
+  display: flex;
+ 
+  padding-top: 2px;
+} 
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ef1304;
+  }
+  20% {
+    background: #ff6a00;
+  }
+  40% {
+    background: #efe805;
+  }
+  60% { 
+    background: #2fed09;
+  }
+  80% {
+    background: #0e0ec5;
+  }
+  
+  100%  {background: #a40ae0;
+  }
+}
+body {
+  animation-name: backgroundColorPalette;
+  animation-duration: 59s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+preview-image {
+  background-image: none;
+  width: 100vw;
+}
+.nopadding {
+  padding: 0!important;
+} 
+.container:hover .preview-image {
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://www.w3schools.com/Html/pic_trulli.jpg); height: 100px;
+}
+.container:hover .txt-container {
+  opacity: 0;
+}
+.txt-container {
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.rat {
+  display: none;
+  padding-left: 500px;
+}
+.rat2:hover + .rat{
+  display:block ;
+  color: azure;
+  padding-left: 500px;
+  
+}
+
+
+
+
