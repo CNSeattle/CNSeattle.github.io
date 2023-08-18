@@ -16,12 +16,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../../main.css">
-    <link rel="text/css" href="styles.css">
 
+    <!-- required for 3D Model embeds -->
+    <link rel="text/css" href="3Dstyles.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
     <style>
         model-viewer {
-
             width: 100%;
             height: 300px;
             top: 0px;
@@ -47,8 +47,6 @@
         <div class="vertical-list">
             <h4>3D Modeling</h4>
             <div class="container">
-
-
                 <div class="box">
                     <model-viewer src="https://showcase.cnseattle.co/2023Camp/week6-3d/models/AbigailKeychain.gltf" ar
                         ar-modes="webxr scene-viewer quick-look" camera-controls
@@ -75,7 +73,8 @@
 
                 <div class="box">
                     <model-viewer src="https://showcase.cnseattle.co/2023Camp/week6-3d/models/DreydenJOJO.gltf" ar
-                        ar-modes="webxr scene-viewer quick-look" camera-controls poster="https://showcase.cnseattle.co/2023Camp/week6-3d/models/DreydenJOJO.webp"
+                        ar-modes="webxr scene-viewer quick-look" camera-controls
+                        poster="https://showcase.cnseattle.co/2023Camp/week6-3d/models/DreydenJOJO.webp"
                         shadow-intensity="1" exposure="0.5" auto-rotate> </model-viewer>
                     <h5>Dreyden JoJo </h5>
                 </div>
@@ -119,6 +118,9 @@
                         shadow-intensity="1" exposure="0.5" auto-rotate> </model-viewer>
                     <h5>Nathan Soccer </h5>
                 </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
