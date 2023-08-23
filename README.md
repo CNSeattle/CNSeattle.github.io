@@ -13,7 +13,7 @@ Copy the template or a page you like and tweak as you see fit. Recommendations:
 - If you can't embed, use preview images. Much easier, though a bit more boring
   - You can use [BulkImageCrop](https://bulkimagecrop.com/) to crop all images to the same aspect ratio at once. Makes the showcase grid look much nicer
 
- # How to 3D model embed
+ # How to embed a 3D model 
  You need to export their model as OBJ, as this includes the texture data. 
  
  Next, convert the model to GLTF. This can be done using [obj2gltf](https://github.com/CesiumGS/obj2gltf) and running the command "obj2gltf -i model.obj". This converts the OBJ model and MTL texture into one, combined GLTF file. 
