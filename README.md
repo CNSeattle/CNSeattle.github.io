@@ -23,3 +23,14 @@ Drag your new GLTF file into [ModelViewer](https://modelviewer.dev/editor/), twe
 You need to include the embed, the scripts it requires at the top of the page, the WebP preview image, and the CSS file. You can see an example of this correctly configured in the 2023 Camp Week 6 3D Modeling page. It's a little finicky, make sure you match the same order of listing the CSS file, script, and embed that I did. 
 
 May be easiest to copy the working page and change the model references.
+
+# Extra Info
+Take a look at the template directory, it's a barebones example of one of the showcase pages plus comments.
+
+Every time you push a change, the website will update to show it within about 2 minutes.
+
+Some file references, like those for the 3D models, can't read from a local file, only a URL. As such, you may need to upload the files you are going to showcase before you try to add them to your page.
+
+I recommend using GitHub Desktop for this, much easier than commandline.
+
+### -Roman
